@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Laman Pribadi — Sheina Azima</title>
+  <meta name="description" content="Kumpulan materi kuliah hingga: Open Source Philosophy">
+  <style>
+    :root{--bg:#0f172a;--card:#111827;--accent:#7dd3fc;--muted:#94a3b8;color-scheme:dark}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial;background:linear-gradient(180deg,#020617, #061226);color:#e6eef8;margin:0}
+    .wrap{max-width:960px;margin:36px auto;padding:24px}
+    header{display:flex;align-items:center;gap:16px}
+    .avatar{width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#60a5fa);display:flex;align-items:center;justify-content:center;font-weight:700}
+    h1{margin:0;font-size:clamp(1.4rem,2.4vw,2rem)}
+    p.lead{color:var(--muted);margin:6px 0 18px}
+    nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+    a.btn{background:rgba(255,255,255,0.03);padding:8px 12px;border-radius:10px;text-decoration:none;color:inherit;border:1px solid rgba(255,255,255,0.03)}
+    main{display:grid;grid-template-columns:1fr;gap:12px}
+    article.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.02)}
+    h2{margin:0 0 8px}
+    ul.simple{margin:0;padding-left:18px}
+    footer{margin-top:24px;color:var(--muted);font-size:0.9rem}
+    .meta{font-size:0.9rem;color:var(--muted)}
+    code.k{background:#021126;padding:2px 6px;border-radius:6px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar">NA</div>
+      <div>
+        <h1>Sheina Azima — Materi Kuliah</h1>
+        <p class="lead">Kumpulan materi dan tugas kuliah sampai topik <strong>Open Source Philosophy</strong>.</p>
+        <div class="meta">Kontak: <a href="mailto:email@domain.com">sheizana09@gmail.com</a></div>
+      </div>
+    </header>
+
+    <nav>
+      <a class="btn" href="#daftar">Daftar Materi</a>
+      <a class="btn" href="#tugas">Tugas</a>
+      <a class="btn" href="#osphilo">Open Source Philosophy</a>
+    </nav>
+
+    <main>
+      <section id="daftar" class="card">
+        <h2>Daftar Materi</h2>
+        <ol class="simple">
+          <li>Pengantar Sistem Informasi</li>
+          <li>Versi Kontrol (Git)</li>
+          <li>Lisensi Perangkat Lunak</li>
+          <li>Open Source Philosophy</li>
+        </ol>
+      </section>
+
+      <section id="tugas" class="card">
+        <h2>Tugas Kuliah (PDF)</h2>
+        <ul class="simple">
+          <li><strong>Tugas 1:</strong> Business strategic Plan — <a href="#">Link PDF</a></li>
+          <li><strong>Tugas 2:</strong> Perancaan Bisnis dengan Tahapan SBB — <a href="#">Link PDF</a></li>
+          <li><strong>Tugas 3:</strong> Lisensi Open Source — <a href="#">Link PDF</a></li>
+          <li><strong>Tugas 4:</strong> Esai Open Source Philosophy — <a href="#">Link PDF</a></li>
+        </ul>
+      </section>
+
+      <section id="osphilo" class="card">
+        <h2>Open Source Philosophy</h2>
+        <p>Open source bukan hanya soal kode — melainkan model kolaborasi, kebebasan penggunaan, modifikasi, dan redistribusi. Ringkasan lengkap ada di file PDF tugas.</p>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>Instruksi pengumpulan link:</p>
+      <ol>
+        <li>Upload file <code class="k">index.html</code> ke GitHub.</li>
+        <li>Aktifkan GitHub Pages dari Settings &gt; Pages.</li>
+        <li>Bagikan URL laman ke dosen dengan format:<br>
+        <code class="k">Nama | NIM | URL Laman</code></li>
+      </ol>
+    </footer>
+  </div>
+</body>
+</html>
